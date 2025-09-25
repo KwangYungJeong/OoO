@@ -23,6 +23,7 @@ The project currently contains a functional simulator for the **Register Alias T
 └── verilog/        # Verilog implementation
     ├── core/       # RTL modules (e.g., rat.sv)
     └── sim/        # Testbenches (e.g., sim_rat.sv)
+```
 
 ## Running Simulations
 
