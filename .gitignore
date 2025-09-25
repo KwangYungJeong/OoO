@@ -1,0 +1,59 @@
+# General
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.idea/
+.vscode/
+.vs/
+*.suo
+*.user
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+.env
+.venv
+env/
+venv/
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# C++
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+
+build/
+bin/
+
+# Verilog/HDL
+*.log
+*.jou
+*.vcd
+*.wlf
+*.fsdb
+*.vvp
+
+# Generated simulators/binaries
+verilog/sim_rat_vvp
+cpp/sim_rat
+
+xsim.dir/
+*.sim/
+csrc/
+simv.daidir/
+
+# macOS debug bundles
+*.dSYM/
+
+# Tool-specific project files
+*.xpr
+*.qpf
